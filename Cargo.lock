@@ -3179,7 +3179,7 @@ dependencies = [
 [[package]]
 name = "iceberg"
 version = "0.10.1"
-source = "git+https://github.com/apache/iceberg-rust?rev=8cb2adeddb4f8da1ca7bd86ca303337f011c12e2#8cb2adeddb4f8da1ca7bd86ca303337f011c12e2"
+source = "git+https://github.com/feldera/iceberg-rust?rev=ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16#ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16"
 dependencies = [
  "aes-gcm",
  "anyhow",
@@ -3202,7 +3202,6 @@ dependencies = [
  "chrono",
  "crc32fast",
  "derive_builder",
- "expect-test",
  "fastnum",
  "flate2",
  "fnv",
@@ -3238,7 +3237,7 @@ dependencies = [
 [[package]]
 name = "iceberg-catalog-rest"
 version = "0.10.1"
-source = "git+https://github.com/apache/iceberg-rust?rev=8cb2adeddb4f8da1ca7bd86ca303337f011c12e2#8cb2adeddb4f8da1ca7bd86ca303337f011c12e2"
+source = "git+https://github.com/feldera/iceberg-rust?rev=ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16#ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16"
 dependencies = [
  "async-trait",
  "chrono",
@@ -3280,7 +3279,7 @@ dependencies = [
 [[package]]
 name = "iceberg-property-macro"
 version = "0.10.1"
-source = "git+https://github.com/apache/iceberg-rust?rev=8cb2adeddb4f8da1ca7bd86ca303337f011c12e2#8cb2adeddb4f8da1ca7bd86ca303337f011c12e2"
+source = "git+https://github.com/feldera/iceberg-rust?rev=ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16#ba063f0f6e6539b67a8ea6c5f31fdd968ac2af16"
 dependencies = [
  "proc-macro2",
  "quote",
